@@ -5,12 +5,14 @@ specifiers:
   '@types/sha256': 0.2.0
   dts-cli: 1.6.3
   husky: 8.0.3
+  nanoid: 4.0.0
   sha256: 0.2.0
   size-limit: 8.1.1
   tslib: 2.4.1
   typescript: 4.9.4
 
 dependencies:
+  nanoid: 4.0.0
   sha256: 0.2.0
 
 devDependencies:
@@ -5165,6 +5167,12 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
     dev: true
+
+  /nanoid/4.0.0:
+    resolution: {integrity: sha512-IgBP8piMxe/gf73RTQx7hmnhwz0aaEXYakvqZyE302IXW3HyVNhdNGC+O2MwMAVhLEnvXlvKtGbtJf6wvHihCg==}
+    engines: {node: ^14 || ^16 || >=18}
+    hasBin: true
+    dev: false
 
   /nanospinner/1.1.0:
     resolution: {integrity: sha512-yFvNYMig4AthKYfHFl1sLj7B2nkHL4lzdig4osvl9/LdGbXwrdFRoqBS98gsEsOakr0yH+r5NZ/1Y9gdVB8trA==}
