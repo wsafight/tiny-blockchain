@@ -72,7 +72,7 @@ class Blockchain {
     nonce,
   }: Record<string, any>): string => {
     const dataStr =
-      previousBlockHash + nonce.tostring() + JSON.stringify(currentBlockData)
+      previousBlockHash + nonce.toString() + JSON.stringify(currentBlockData)
     return sha256(dataStr)
   }
 
